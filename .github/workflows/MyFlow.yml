@@ -9,7 +9,7 @@ on:
             - name: Start job
               run: echo 'Hello DevOps' 
  lab-job:
-        run-ons: Run1
+        run-ons: ubuntu-latest
         steps:
         - name: Run job
         run: echo 'run Job'
