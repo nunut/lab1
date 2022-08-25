@@ -1,4 +1,8 @@
-jobs:
+
+on:
+  push:
+    branches:
+        - "main"jobs:
     lab-job:
         run-ons: ubuntu-latest
         steps:
@@ -13,15 +17,4 @@ jobs:
             - name: Second Step
               run: echo 'This is second step'
               jobs:
-    lab-job:
-        run-ons: ubuntu-latest
-        steps:
-            - name: Start job
-              run: echo 'Hello DevOps'
-            - name: Second Step
-              run: echo 'This is second step'
-    second-job:
-        run-ons: ubuntu-latest
-        steps:
-            - name: Start Second job
-              run: echo 'Hello Second Job'
+ 
