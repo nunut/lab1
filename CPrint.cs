@@ -7,7 +7,6 @@ namespace BasicIO
         public static void Main()
         {
             DateTime dat = DateTime.Now;
-
             Console.WriteLine("Current Date and time is : "+dat);
 
         }
