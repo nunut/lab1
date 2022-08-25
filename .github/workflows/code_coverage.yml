@@ -19,7 +19,7 @@ jobs:
               working-directory: ./src
               run: go test ./...
     code-coverage:
-        name: Code Coverage
+        name: Code-Coverage
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3 #Use checkout action to download the source code to run unittest
