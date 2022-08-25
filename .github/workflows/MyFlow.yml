@@ -8,4 +8,8 @@ on:
         steps:
             - name: Start job
               run: echo 'Hello DevOps' 
-
+ lab-job:
+        run-ons: Run1
+        steps:
+        - name: Run job
+        run: echo 'run Job'
