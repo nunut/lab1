@@ -88,11 +88,3 @@ jobs:
             run: |
               docker build . --file Dockerfile --tag nunut/demo:${{ github.sha }}
 
-
-
-
-
-
-
-
- 
