@@ -41,7 +41,7 @@ jobs:
 
 
     code-vuln-scan:
-        name: Code Vulnerability Scan
+        name: code-vuln-scan
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3 #Use checkout action to download the source code to run unittest
