@@ -8,7 +8,6 @@ namespace BasicIO
         {
             DateTime dat = DateTime.Now;
             Console.WriteLine("Current Date and time is : "+dat);
-
         }
     }
 }
