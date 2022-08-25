@@ -51,7 +51,7 @@ jobs:
               with:
                 scan-type: 'fs'
                 ignore-unfixed: true
-                format: 'table'
+                format: 'github'
                 output: 'trivy-results.sarif'
                 severity: 'CRITICAL'
             - uses: actions/upload-artifact@v3
