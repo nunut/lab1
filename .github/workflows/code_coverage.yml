@@ -58,4 +58,8 @@ jobs:
               name: Save Code vulnerability scan report
               with:
                 name: code-vuln-report
-                path: trivy-results.sarif
+                path: trivy-results.table
+
+
+
+
